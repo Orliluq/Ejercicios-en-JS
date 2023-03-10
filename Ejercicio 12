@@ -1,0 +1,14 @@
+// 12. Escribe un programa que pida una frase y escriba cuántas veces aparecen cada una de las vocales.
+
+var frase = prompt("Ingrese una frase:");
+var vocales = {a: 0, e: 0, i: 0, o: 0, u: 0};
+
+for (var i = 0; i < frase.length; i++) {
+  var letra = frase.charAt(i).toLowerCase();
+  
+  if (letra == "a" || letra == "e" || letra == "i" || letra == "o" || letra == "u") {
+    vocales[letra]++;
+  }
+}
+
+alert("La frase contiene " + vocales.a + " letras 'a', " + vocales.e + " letras 'e', " + vocales.i + " letras 'i', " + vocales.o + " letras 'o' y " + vocales.u + " letras 'u'.");
