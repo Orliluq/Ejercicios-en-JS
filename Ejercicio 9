@@ -1,0 +1,16 @@
+// 9. Escribe un programa que pida una frase y escriba cuantas veces aparece la letra a.
+
+
+const frase = prompt("Escribe una frase:");
+let conteo = 0;
+
+// Recorremos la cadena de texto letra por letra
+
+for (let i = 0; i < frase.length; i++) {
+  if (frase.charAt(i) === "a") {
+    // Si la letra actual es 'a', incrementamos el contador
+    conteo++;
+  }
+}
+
+console.log(`La letra 'a' aparece ${conteo} veces en la frase.`);
