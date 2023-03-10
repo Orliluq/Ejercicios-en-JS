@@ -1,0 +1,14 @@
+// 11. Escribe un programa que pida una frase y escriba cuántas de las letras que tiene son vocales.
+
+var phrase = prompt("Ingrese una frase:");
+var count = 0;
+
+for (var i = 0; i < phrase.length; i++) {
+  var letter = phrase.charAt(i).toLowerCase();
+  
+  if (letter == "a" || letter == "e" || letter == "i" || letter == "o" || letter == "u") {
+    count++;
+  }
+}
+
+alert("La frase contiene " + count + " vocales.");
