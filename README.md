@@ -1,5 +1,5 @@
 
-# Ejercicios JS
+# Ejercicios JS NIVEL PRINCIPIANTE!!
 
 
 ![image](https://user-images.githubusercontent.com/122529721/224375954-68109da7-e925-403b-a336-e17eb24bc4d9.png)
